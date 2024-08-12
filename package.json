@@ -1,10 +1,17 @@
 {
   "name": "eslint-config",
-  "version": "0.0.0",
-  "engines": {
-    "node": "20"
+  "version": "0.1.0-alpha.0",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "publish:alpha": "npm publish --tag alpha"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "eslint": "^9.8.0"
+  },
+  "engines": {
+    "node": "20"
   }
 }
