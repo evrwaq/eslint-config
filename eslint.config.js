@@ -1,10 +1,12 @@
-export default [{
+import eslint from '@eslint/js';
+import tseslint from 'typescript-eslint'
+
+export default [
+  eslint.configs.recommended,
+  ...tseslint.configs.recommended,
+  {
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint"],
-  extends: [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended"
-  ],
   parserOptions: {
     "ecmaVersion": 2021,
     "sourceType": "module",
