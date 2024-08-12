@@ -1,16 +1,16 @@
 export default [{
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
-  "extends": [
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
+  extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended"
   ],
-  "parserOptions": {
+  parserOptions: {
     "ecmaVersion": 2021,
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
-  "rules": {
+  rules: {
     "semi": ["error", "always"],
     "quotes": ["error", "single"],
     "indent": ["error", 2],
