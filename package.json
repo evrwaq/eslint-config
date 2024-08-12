@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "eslint-config-evrwaq",
   "version": "0.1.0-alpha.0",
   "main": ".eslintrc.js",
   "scripts": {
