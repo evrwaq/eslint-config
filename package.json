@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-evrwaq",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0-alpha.1",
   "main": ".eslintrc.js",
   "scripts": {
     "publish:alpha": "npm publish --tag alpha"
@@ -8,8 +8,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "devDependencies": {
-    "eslint": "^9.8.0"
+  "dependencies": {
+    "eslint": "^9.9.0",
+    "@typescript-eslint/eslint-plugin": "^8.1.0",
+    "@typescript-eslint/parser": "^8.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "5.5.4"
   },
   "engines": {
     "node": "20"
