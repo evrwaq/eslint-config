@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@eslint/js": "^10.0.0",
-    "@typescript-eslint/eslint-plugin": "^8.1.0",
-    "@typescript-eslint/parser": "^8.1.0",
-    "eslint": "^9.9.0"
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.9.0",
+    "typescript-eslint": "^8.1.0"
   },
   "peerDependencies": {
     "typescript": "^5.5.4"
