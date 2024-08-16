@@ -1,9 +1,10 @@
 {
   "name": "eslint-config-evrwaq",
-  "version": "0.1.0-alpha.4",
+  "version": "0.1.0-alpha.5",
   "main": "eslint.config.mjs",
   "scripts": {
-    "publish:alpha": "npm publish --tag alpha"
+    "publish:alpha": "npm publish --tag alpha",
+    "check": "ncu --interactive --format group"
   },
   "publishConfig": {
     "access": "public"
@@ -14,6 +15,9 @@
     "eslint": "^9.9.0",
     "eslint-config-prettier": "^9.1.0",
     "typescript-eslint": "^8.1.0"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^17.0.6"
   },
   "peerDependencies": {
     "typescript": "^5.5.4"
