@@ -12,6 +12,7 @@
     "@eslint/js": "^10.0.0",
     "@types/eslint__js": "^8.42.3",
     "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
     "typescript-eslint": "^8.1.0"
   },
   "peerDependencies": {
