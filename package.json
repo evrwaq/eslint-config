@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-evrwaq",
   "version": "0.1.0-alpha.4",
-  "main": ".eslintrc.js",
+  "main": "eslint.config.mjs",
   "scripts": {
     "publish:alpha": "npm publish --tag alpha"
   },
