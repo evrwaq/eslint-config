@@ -2,9 +2,13 @@
   "name": "eslint-config-evrwaq",
   "version": "0.1.0-alpha.5",
   "main": "eslint.config.mjs",
+  "files": [
+    "eslint.config.mjs"
+  ],
   "scripts": {
     "publish:alpha": "npm publish --tag alpha",
-    "check": "ncu --interactive --format group"
+    "check": "ncu --interactive --format group",
+    "check-publish-files": "npm pack --dry-run"
   },
   "publishConfig": {
     "access": "public"
