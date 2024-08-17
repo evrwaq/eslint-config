@@ -1,6 +1,7 @@
 {
   "name": "eslint-config-evrwaq",
   "version": "0.1.0-alpha.5",
+  "description": "ESLint custom rules for typescript projects.",
   "main": "eslint.config.mjs",
   "files": [
     "eslint.config.mjs"
