@@ -8,6 +8,9 @@
     "typescript"
   ],
   "homepage": "https://github.com/evrwaq/eslint-config-evrwaq",
+  "bugs": {
+    "url": "https://github.com/evrwaq/eslint-config-evrwaq/issues"
+  },
   "main": "eslint.config.mjs",
   "files": [
     "eslint.config.mjs"
