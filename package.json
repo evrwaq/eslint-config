@@ -22,17 +22,14 @@
     "url": "https://github.com/evrwaq/eslint-config-evrwaq.git"
   },
   "main": "eslint.config.mjs",
-  "files": [
-    "eslint.config.mjs"
-  ],
-  "scripts": {
+    "scripts": {
     "publish:alpha": "npm publish --tag alpha",
     "check": "ncu --interactive --format group",
     "check-publish-files": "npm pack --dry-run"
   },
-  "publishConfig": {
-    "access": "public"
-  },
+  "files": [
+    "eslint.config.mjs"
+  ],
   "dependencies": {
     "@eslint/js": "^9.9.0",
     "@types/eslint__js": "^8.42.3",
@@ -47,5 +44,8 @@
   },
   "engines": {
     "node": "20"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
