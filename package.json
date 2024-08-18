@@ -11,6 +11,7 @@
   "bugs": {
     "url": "https://github.com/evrwaq/eslint-config-evrwaq/issues"
   },
+  "license": "GPL-3.0",
   "main": "eslint.config.mjs",
   "files": [
     "eslint.config.mjs"
