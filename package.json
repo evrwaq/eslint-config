@@ -12,6 +12,11 @@
     "url": "https://github.com/evrwaq/eslint-config-evrwaq/issues"
   },
   "license": "GPL-3.0",
+  "author": {
+    "name": "Evrwaq",
+    "email": "evrwaq@gmail.com",
+    "url": "https://github.com/evrwaq"
+  },
   "main": "eslint.config.mjs",
   "files": [
     "eslint.config.mjs"
