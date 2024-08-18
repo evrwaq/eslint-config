@@ -17,6 +17,10 @@
     "email": "evrwaq@gmail.com",
     "url": "https://github.com/evrwaq"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evrwaq/eslint-config-evrwaq.git"
+  },
   "main": "eslint.config.mjs",
   "files": [
     "eslint.config.mjs"
