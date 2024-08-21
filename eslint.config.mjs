@@ -38,9 +38,9 @@ export default [
       ],
       'padding-line-between-statements': [
         'error',
-        { blankLine: 'always', prev: 'class', next: '*' },
+        { blankLine: 'always', prev: 'block', next: 'block' },
         { blankLine: 'always', prev: '*', next: 'export' },
-        { blankLine: 'always', prev: 'method', next: 'method' }
+        { blankLine: 'always', prev: 'class', next: '*' }
       ],
       '@typescript-eslint/no-unused-vars': ['warn'],
       '@typescript-eslint/explicit-module-boundary-types': ['error'],
