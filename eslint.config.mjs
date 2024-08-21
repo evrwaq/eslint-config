@@ -24,6 +24,7 @@ export default [
       'quotes': ['error', 'single'],
       'semi': ['error', 'never'],
       'no-multiple-empty-lines': ['error', { 'max': 1 }],
+      'space-before-blocks': ['error', 'always'],
       '@typescript-eslint/no-unused-vars': ['warn'],
       '@typescript-eslint/explicit-module-boundary-types': 'error',
       '@typescript-eslint/no-explicit-any': 'warn',
