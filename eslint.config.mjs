@@ -36,9 +36,9 @@ export default [
           message: 'Default export is not allowed. Use named exports instead.'
         }
       ],
+      'lines-between-class-members': ['error', 'always'],
       'padding-line-between-statements': [
         'error',
-        { blankLine: 'always', prev: 'block', next: 'block' },
         { blankLine: 'always', prev: '*', next: 'export' },
         { blankLine: 'always', prev: 'class', next: '*' }
       ],
