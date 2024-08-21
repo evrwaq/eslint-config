@@ -36,6 +36,12 @@ export default [
           message: 'Default export is not allowed. Use named exports instead.'
         }
       ],
+      'padding-line-between-statements': [
+        'error',
+        { blankLine: 'always', prev: 'class', next: '*' },
+        { blankLine: 'always', prev: '*', next: 'export' },
+        { blankLine: 'always', prev: 'method', next: 'method' }
+      ],
       '@typescript-eslint/no-unused-vars': ['warn'],
       '@typescript-eslint/explicit-module-boundary-types': ['error'],
       '@typescript-eslint/no-explicit-any': 'warn',
