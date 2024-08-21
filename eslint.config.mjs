@@ -25,13 +25,15 @@ export default [
       'semi': ['error', 'never'],
       'no-multiple-empty-lines': ['error', { 'max': 1, 'maxEOF': 0 }],
       'space-before-blocks': ['error', 'always'],
-      'import/no-default-export': 'error',
-      'import/prefer-default-export': 'off',
-      "no-restricted-syntax": [
-        "error",
+      'no-restricted-syntax': [
+        'error',
         {
-          "selector": "ImportNamespaceSpecifier",
-          "message": "Namespace import is not allowed. Use named imports instead."
+          selector: 'ImportNamespaceSpecifier',
+          message: 'Namespace import is not allowed. Use named imports instead.'
+        },
+        {
+          selector: 'ExportDefaultDeclaration',
+          message: 'Default export is not allowed. Use named exports instead.'
         }
       ],
       '@typescript-eslint/no-unused-vars': ['warn'],
