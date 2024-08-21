@@ -27,6 +27,13 @@ export default [
       'space-before-blocks': ['error', 'always'],
       'import/no-default-export': 'error',
       'import/prefer-default-export': 'off',
+      "no-restricted-syntax": [
+        "error",
+        {
+          "selector": "ImportNamespaceSpecifier",
+          "message": "Namespace import is not allowed. Use named imports instead."
+        }
+      ],
       '@typescript-eslint/no-unused-vars': ['warn'],
       '@typescript-eslint/explicit-module-boundary-types': ['error'],
       '@typescript-eslint/no-explicit-any': 'warn',
