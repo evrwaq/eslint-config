@@ -23,6 +23,7 @@ export default [
       'eol-last': ['error', 'always'],
       'quotes': ['error', 'single'],
       'semi': ['error', 'never'],
+      'no-multiple-empty-lines': ['error', { 'max': 1 }],
       '@typescript-eslint/no-unused-vars': ['warn'],
       '@typescript-eslint/explicit-module-boundary-types': 'error',
       '@typescript-eslint/no-explicit-any': 'warn',
