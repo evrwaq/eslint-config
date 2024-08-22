@@ -48,7 +48,7 @@ export default [
       '@typescript-eslint/adjacent-overload-signatures': 'error',
       '@typescript-eslint/array-type': 'error',
       '@typescript-eslint/consistent-type-exports': 'error',
-      '@typescript-eslint/no-mixed-enums': 'error'
+      '@typescript-eslint/no-mixed-enums': 'error',
     },
   },
 ]
