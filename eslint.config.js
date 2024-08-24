@@ -15,6 +15,13 @@ export default [
       '@stylistic/ts/indent': ['error', 2],
       '@stylistic/ts/quotes': ['error', 'single'],
       '@stylistic/ts/semi': ['error', 'never'],
+      '@stylistic/ts/member-delimiter-style': [
+        'error',
+        {
+          multiline: { delimiter: 'none', requireLast: true },
+          singleline: { delimiter: 'comma', requireLast: false },
+        },
+      ],
     },
   },
 ]
