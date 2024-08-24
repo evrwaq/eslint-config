@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-evrwaq",
-  "version": "0.1.0-alpha.14",
+  "version": "0.1.0-alpha.15",
   "description": "ESLint custom rules for typescript projects.",
   "keywords": [
     "eslint",
@@ -31,9 +31,11 @@
   "files": [
     "eslint.config.js"
   ],
-  "devDependencies": {
+  "dependencies": {
     "@stylistic/eslint-plugin-ts": "^2.6.4",
-    "@typescript-eslint/parser": "^8.2.0",
+    "@typescript-eslint/parser": "^8.2.0"
+  },
+  "devDependencies": {
     "npm-check-updates": "^17.1.0"
   },
   "peerDependencies": {
