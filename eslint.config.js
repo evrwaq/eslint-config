@@ -1,4 +1,5 @@
 import stylistic from '@stylistic/eslint-plugin'
+import tseslint from '@typescript-eslint/eslint-plugin'
 import parserTs from '@typescript-eslint/parser'
 
 export default [
@@ -9,6 +10,7 @@ export default [
     },
     plugins: {
       '@stylistic': stylistic,
+      '@typescript-eslint': tseslint,
     },
     rules: {
       'eol-last': ['error', 'always'],
@@ -23,7 +25,13 @@ export default [
         },
       ],
       '@stylistic/type-annotation-spacing': 'error',
-      '@stylistic/type-generic-spacing': ["error"],
+      '@stylistic/type-generic-spacing': ['error'],
+      '@typescript-eslint/explicit-function-return-type': ['error', {
+        allowExpressions: true,
+        allowTypedFunctionExpressions: true,
+        allowHigherOrderFunctions: true,
+        allowDirectConstAssertionInArrowFunctions: true,
+      }],
     },
   },
 ]
