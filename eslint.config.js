@@ -22,6 +22,7 @@ export default [
           singleline: { delimiter: 'comma', requireLast: false },
         },
       ],
+      '@stylistic/ts/type-annotation-spacing': 'error'
     },
   },
 ]
