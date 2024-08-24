@@ -1,4 +1,4 @@
-import stylisticTs from '@stylistic/eslint-plugin-ts'
+import stylistic from '@stylistic/eslint-plugin'
 import parserTs from '@typescript-eslint/parser'
 
 export default [
@@ -8,21 +8,22 @@ export default [
       parser: parserTs,
     },
     plugins: {
-      '@stylistic/ts': stylisticTs,
+      '@stylistic': stylistic,
     },
     rules: {
       'eol-last': ['error', 'always'],
-      '@stylistic/ts/indent': ['error', 2],
-      '@stylistic/ts/quotes': ['error', 'single'],
-      '@stylistic/ts/semi': ['error', 'never'],
-      '@stylistic/ts/member-delimiter-style': [
+      '@stylistic/indent': ['error', 2],
+      '@stylistic/quotes': ['error', 'single'],
+      '@stylistic/semi': ['error', 'never'],
+      '@stylistic/member-delimiter-style': [
         'error',
         {
           multiline: { delimiter: 'none', requireLast: true },
           singleline: { delimiter: 'comma', requireLast: false },
         },
       ],
-      '@stylistic/ts/type-annotation-spacing': 'error'
+      '@stylistic/type-annotation-spacing': 'error',
+      '@stylistic/type-generic-spacing': ["error"],
     },
   },
 ]
